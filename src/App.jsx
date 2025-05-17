@@ -1,3 +1,5 @@
+import AboutMe from './components/AboutMe'
+import Footer from './components/Footer'
 import Header from './components/Header'
 import LearningTimeline from './components/LearningTimeline'
 import SubHeader from './components/SubHeader'
@@ -13,8 +15,10 @@ function App() {
       
       {/* SubHeader and other content */}
       <SubHeader />
-      
+      <AboutMe />
      <LearningTimeline />
+     <Footer />
+     
       
     </div>
   )
